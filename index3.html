@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Bootstrap
+        </title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            #sticky{
+            position:-webkit-sticky;
+            position:sticky;
+            top:0;
+            padding:5px;
+            background-color:#cae8ca;
+            border:2px solid #4caf50;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="padding:25px"></div>
+        <nav id="sticky" class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Website name</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page1<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://www.google.com" target="_blank">page1-1</a></li>
+                        <li><a href="#">page1-2</a></li>
+                    </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page2<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">page2-1</a></li>
+                        <li><a href="#">page2-1</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h1>Basic Navbar</h1>
+            <p>A navigation bar is a navigation header that is placed at the top of page</p>
+        </div>
+        <div style="padding-bottom: 8000px;">
+            <p>scroll back to remove stickness</p>
+        </div>
+    </body>
+</html>
